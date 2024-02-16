@@ -1,0 +1,117 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0-windows7.0": {
+      "Matrox.MatroxImagingLibrary/10.50.923": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/Matrox.MatroxImagingLibrary.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0/Matrox.MatroxImagingLibrary.dll": {
+            "related": ".xml"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Matrox.MatroxImagingLibrary/10.50.923": {
+      "sha512": "ydeLud8xDCt83fUu6qHPmulFmENrabjPjBfxJczavxNRz67oTenSuRXiphhhibcq5KeZfh35KXhGR1HyKqZPhA==",
+      "type": "package",
+      "path": "matrox.matroximaginglibrary/10.50.923",
+      "files": [
+        ".nupkg.metadata",
+        "Matrox_Imaging_200x200.png",
+        "lib/net5.0/Matrox.MatroxImagingLibrary.dll",
+        "lib/net5.0/Matrox.MatroxImagingLibrary.xml",
+        "lib/netstandard2.0/Matrox.MatroxImagingLibrary.dll",
+        "lib/netstandard2.0/Matrox.MatroxImagingLibrary.xml",
+        "matrox.matroximaginglibrary.10.50.923.nupkg.sha512",
+        "matrox.matroximaginglibrary.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0-windows7.0": [
+      "Matrox.MatroxImagingLibrary >= 10.50.923"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\taeya\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\project\\MillLineScan\\MillLineScan\\MillLineScan.csproj",
+      "projectName": "MillLineScan",
+      "projectPath": "D:\\project\\MillLineScan\\MillLineScan\\MillLineScan.csproj",
+      "packagesPath": "C:\\Users\\taeya\\.nuget\\packages\\",
+      "outputPath": "D:\\project\\MillLineScan\\MillLineScan\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\taeya\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\mil.net.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0-windows"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\Matrox Imaging\\MIL\\MIL.NET\\NuGet": {},
+        "D:\\project\\UnisA\\UniEye6.Shared": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net8.0-windows7.0": {
+        "targetAlias": "net8.0-windows",
+        "dependencies": {
+          "Matrox.MatroxImagingLibrary": {
+            "target": "Package",
+            "version": "[10.50.923, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WindowsForms": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

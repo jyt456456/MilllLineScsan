@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "MillLineScan/1.0.0": {
+        "dependencies": {
+          "Matrox.MatroxImagingLibrary": "10.50.923"
+        },
+        "runtime": {
+          "MillLineScan.dll": {}
+        }
+      },
+      "Matrox.MatroxImagingLibrary/10.50.923": {
+        "runtime": {
+          "lib/net5.0/Matrox.MatroxImagingLibrary.dll": {
+            "assemblyVersion": "10.50.923.4242",
+            "fileVersion": "10.50.923.4242"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MillLineScan/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Matrox.MatroxImagingLibrary/10.50.923": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ydeLud8xDCt83fUu6qHPmulFmENrabjPjBfxJczavxNRz67oTenSuRXiphhhibcq5KeZfh35KXhGR1HyKqZPhA==",
+      "path": "matrox.matroximaginglibrary/10.50.923",
+      "hashPath": "matrox.matroximaginglibrary.10.50.923.nupkg.sha512"
+    }
+  }
+}

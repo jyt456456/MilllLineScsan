@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "QW2tLCPx6DfFXtz7Iw6ownuDKfQ0ZgbAOQzI7UqZWHh1wDWdEbwqGVWiecLiqnSinPQM8wSowo8mX5k/jGmshw==",
+  "success": true,
+  "projectFilePath": "D:\\project\\MillLineScan\\MillLineScan\\MillLineScan.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\taeya\\.nuget\\packages\\matrox.matroximaginglibrary\\10.50.923\\matrox.matroximaginglibrary.10.50.923.nupkg.sha512"
+  ],
+  "logs": []
+}
